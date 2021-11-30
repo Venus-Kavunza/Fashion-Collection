@@ -1,0 +1,32 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+.navbar {
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding-left: 850px;
+
+}
+h1 {
+    text-align: left;
+}
+
+.list {
+ padding: 50px;
+ padding-left: 500px;
+}
+.images {
+    padding-top: 30px;
+}
+#design {
+    flex: auto;
+    float: right;
+}
