@@ -4,8 +4,8 @@
 .navbar {
     display: flex;
     padding-left: 5%;
-    padding-top: 5%;
-    color: white;
+    padding-top: 1%;
+    color:black;
 }
 ul {
     list-style-type: none;
@@ -15,16 +15,41 @@ ul {
     padding-left: 850px;
 
 }
-h1 {
+{
     text-align: left;
+    
+}
+.limage {
+    padding-left: ;
 }
 
-.list {
- padding: 50px;
- padding-left: 500px;
+.olist {
+    float: right;
+    padding-top: 200px;
+    padding-right: 100px;
+    margin-top: 100px;
+    padding: 100px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+  
 }
-.images {
-    padding-top: 30px;
+.plist {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    background-image: url(images/photo-1483985988355-763728e1935b.jpeg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%:
+}
+span {
+    font-weight: bold;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 #design {
     flex: auto;
