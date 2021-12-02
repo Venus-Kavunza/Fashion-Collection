@@ -15,13 +15,6 @@ ul {
     padding-left: 850px;
 
 }
-{
-    text-align: left;
-    
-}
-.limage {
-    padding-left: ;
-}
 
 .olist {
     float: right;
@@ -41,7 +34,7 @@ ul {
     background-image: url(images/photo-1483985988355-763728e1935b.jpeg);
     background-size: cover;
     height: 1000px;
-    width: 100%:
+    width: 100%;
 }
 span {
     font-weight: bold;
@@ -54,4 +47,21 @@ span {
 #design {
     flex: auto;
     float: right;
+}
+@media screen and (min-width: 400px) {
+    body {
+        background-color:whitesmoke;
+        color: black;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+      background-color:lightgray;
+    }
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
 }
